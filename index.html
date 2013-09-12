@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ﻿---
 layout: default
 title: ouscn blog
@@ -9,3 +10,16 @@ title: ouscn blog
 		<li>{{ post.date | date_to_string }} <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
 	{% endfor %}
 </ul>
+=======
+---
+layout: default
+title: ouscn test in master of github.io
+---
+　　<h2>{{ page.title }}</h2>
+　　<p>New Posts</p>
+　　<ul>
+　　　　{% for post in site.posts %}
+　　　　　　<li>{{ post.date | date_to_string }} <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+　　　　{% endfor %}
+　　</ul>
+>>>>>>> ee42d300968435f60a44d564bc1f0d3e3dc60892
